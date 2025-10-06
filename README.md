@@ -32,9 +32,11 @@ cd todo-springboot
 ````
 
 Dann öffne im Browser: http://localhost:8080/todos  
-## Lernziele
-  Verstehen des MVC-Patterns
-  Umgang mit Spring Boot und JPA
-  Aufbau eines einfachen Web-Frontends mit Thymeleaf
-  Deployment-Vorbereitung mit GitHub    
+
+## 📚 Lernziele
+
+1. Verstehen des MVC-Patterns
+2. Umgang mit Spring Boot und JPA
+3. Aufbau eines Web-Frontends mit Thymeleaf
+4. Deployment-Vorbereitung mit 
   
