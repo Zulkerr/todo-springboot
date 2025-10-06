@@ -38,5 +38,8 @@ Dann öffne im Browser: http://localhost:8080/todos
 1. Verstehen des MVC-Patterns
 2. Umgang mit Spring Boot und JPA
 3. Aufbau eines Web-Frontends mit Thymeleaf
-4. Deployment-Vorbereitung mit 
+4. Deployment-Vorbereitung mit
+
+## 📄 Lizenz
+Dieses Project steht unter der MIT-Lizenz.
   
