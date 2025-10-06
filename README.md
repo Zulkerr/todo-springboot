@@ -30,4 +30,5 @@ git clone https://github.com/deinBenutzername/todo-springboot.git
 cd todo-springboot
 ./mvnw spring-boot:run
 ````
+
 Dann öffne im Browser: http://localhost:8080/todos
