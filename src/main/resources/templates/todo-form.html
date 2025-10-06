@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Todo bearbeiten</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="container mt-5">
+<h1 class="mb-4">🛠️ Todo bearbeiten</h1>
+
+<form th:action="@{${todo.id} != null ? '/todos/update/' + ${todo.id} : '/todos'}"
+      th:object="${todo}" method="post" class="mb-3">
+
+    <div class="mb-3">
+        <label for="title" class="form-label">Titel</label>
+        <input type="text" id="title" th:field="*{title}" class="form-control" required />
+    </div>
+
+    <div class="form-check mb-3">
+        <input type="checkbox" id="completed" th:field="*{completed}" class="form-check-input" />
+        <label for="completed" class="form-check-label">Erledigt</label>
+    </div>
+
+    <button type="submit" class="btn btn-success">💾 Speichern</button>
+    <a href="/todos" class="btn btn-secondary ms-2">🔙 Zurück</a>
+</form>
+</body>
+</html>
+
