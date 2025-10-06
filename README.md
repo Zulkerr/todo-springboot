@@ -31,4 +31,10 @@ cd todo-springboot
 ./mvnw spring-boot:run
 ````
 
-Dann öffne im Browser: http://localhost:8080/todos
+Dann öffne im Browser: http://localhost:8080/todos  
+## Lernziele
+  Verstehen des MVC-Patterns
+  Umgang mit Spring Boot und JPA
+  Aufbau eines einfachen Web-Frontends mit Thymeleaf
+  Deployment-Vorbereitung mit GitHub    
+  
